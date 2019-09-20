@@ -11,72 +11,214 @@
 </head>
 <body>
 
-<div class="row">
-  <div class="columns">
-    <h2>Horizontal Dropdown Menu</h2>
-    <p><strong>Set up:</strong> Dropdown menus build on the <a href="foundation.zurb.com/sites/docs/">Menu</a> component's syntax. Add the class <code>.dropdown</code> and the attribute <code>data-dropdown-menu</code> to the menu container to set up the dropdown.</p>
-    <p><strong>Activate:</strong> To create dropdown menus, nest a new <code>&lt;ul&gt;</code> inside an <code>&lt;li&gt;</code>. You can nest further to create more levels of dropdowns.</p>
-    <div class="primary callout">
-      <p>Note that the <code>&lt;ul&gt;</code> goes <em>after</em> the <code>&lt;a&gt;</code>, and not inside of it.</p>
-    </div>
-  </div>
-</div>
+
+<nav class="top-bar" data-topbar role="navigation">
+
 
 <div class="row">
   <div class="columns">
+    <section class="top-bar-section">
+
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
         <a href="#Item-1">Item 1</a>
-        <ul class="menu">
+        <ul class="menu" style="width: 100px;">
           <li>
           
           
-          <div class="row">
+          <div class="grid-container">
   
-              <div class="columns small-4 large-4"><span><a href="#Item-1A">Item 1A</a></span></div>
+             <div class="grid-x grid-margin-x">
+                 <div class="cell small-4"><span>
+  <!-- left side of submenu -->
+                    <div class="cell small-4"><span><a href="#Item-1A">Link1</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link2</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link3</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link4</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link5</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link6</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link7</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link8</a></span></div>
+                  </span></div>
 
+<!-- right side of submenu -->
+  
+              <div class="cell small-8" style="border-left:1px solid #000000;"><a href="#Item2"></a><span>
 
-              <div class="columns small-8 large-8"><span><a href="#Item-1A">Item 1A</a></span></div>
-          </div>
+        <!-- Nested Grid -->
+                       <div class="grid-x grid-margin-x">
 
+                  <div class="cell small-12 large-offset-1">  
+                    <p class="text-left">Stock Features</p></div>
+                          <div class="cell small-6">   <a href="#Item2"><img src="img/stock1.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item3"><img src="img/stock2.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item4"><img src="img/stock3.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item5"><img src="img/stock4.jpg" alt="image"></a></div>
+
+                        </div>
+                    </span></div>
+            
+             
+              </div>
+            </div>
 
           </li>
-          <li>
-            <a href="#Item-1B">Item 1B</a>
-            <ul class="menu">
-              <li><a href="#Item-1Bi">Item 1B i</a></li>
-              <li><a href="#Item-1Bii">Item 1B ii</a></li>
-              <li>
-                <a href="#Item-1Biii">Item 1B iii</a>
-                <ul class="menu">
-                  <li><a href="#Item-1Biiialpha">Item 1B iii alpha</a></li>
-                  <li><a href="#Item-1Biiiomega">Item 1B iii omega</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#Item-1Biv">Item 1B iv</a>
-                <ul class="menu">
-                  <li><a href="#Item-1Bivalpha">Item 1B iv alpha</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#Item-1C">Item 1C</a></li>
         </ul>
-      </li>
+       </li>
+    
+
+    <!-- Second Navigation -->
+
+       <ul class="dropdown menu" data-dropdown-menu>
       <li>
-        <a href="#Item-2">Item 2</a>
+        <a href="#Item-1">Item 2</a>
         <ul class="menu">
-          <li><a href="#Item-2A">Item 2A</a></li>
-          <li><a href="#Item-2B">Item 2B</a></li>
+          <li>
+          
+          
+          <div class="grid-container">
+  
+             <div class="grid-x grid-margin-x">
+                 <div class="cell small-4"><span>
+  <!-- left side of submenu -->
+                    <div class="cell small-4"><span><a href="#Item-2A">Link1</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-2A">Link2</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-2A">Link3</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-2A">Link4</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link5</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link6</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link7</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link8</a></span></div>
+                  </span></div>
+
+<!-- right side of submenu -->
+  
+              <div class="cell small-8" style="border-left:1px solid #000000;"><a href="#Item2"></a><span>
+
+
+        <!-- Nested Grid -->
+                       <div class="grid-x grid-margin-x">
+                        <div class="cell small-12 large-offset-1">  
+                    <p class="text-left">Stock Features2</p></div>
+                          <div class="cell small-6">   <a href="#Item2_nav1"><img src="img/stock1.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item2_nav2"><img src="img/stock2.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item2_nav3"><img src="img/stock3.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item2_nav4"><img src="img/stock4.jpg" alt="image"></a></div>
+
+                        </div>
+                    </span></div>
+            
+             
+              </div>
+            </div>
+
+          </li>
         </ul>
       </li>
-      <li><a href="#Item-3">Item 3</a></li>
-      <li><a href="#Item-4">Item 4</a></li>
-    </ul>
+   
+    <!-- Third Navigation -->
+
+       <ul class="dropdown menu" data-dropdown-menu>
+      <li>
+        <a href="#Item-3">Item 3</a>
+        <ul class="menu">
+          <li>
+          
+          
+          <div class="grid-container">
+  
+             <div class="grid-x grid-margin-x">
+                 <div class="cell small-4"><span>
+  <!-- left side of submenu -->
+                    <div class="cell small-4"><span><a href="#Item-3A">Link1</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-3A">Link2</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-3A">Link3</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-3A">Link4</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link5</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link6</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link7</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link8</a></span></div>
+
+                  </span></div>
+
+<!-- right side of submenu -->
+  
+              <div class="cell small-8" style="border-left:1px solid #000000;"><a href="#Item2"></a><span>
+
+        <!-- Nested Grid -->
+                       <div class="grid-x grid-margin-x">
+                        <div class="cell small-12 large-offset-1">  
+                    <p class="text-left">Stock Features3</p></div>
+                          <div class="cell small-6">   <a href="#Item3_nav1"><img src="img/stock1.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item3_nav2"><img src="img/stock2.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item3_nav3"><img src="img/stock3.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item3_nav4"><img src="img/stock4.jpg" alt="image"></a></div>
+
+                        </div>
+                    </span></div>
+            
+             
+              </div>
+            </div>
+
+          </li>
+        </ul>
+      </li>
+
+
+    <!-- Fourth Navigation -->
+
+       <ul class="dropdown menu" data-dropdown-menu>
+      <li>
+        <a href="#Item-1">Item 4</a>
+        <ul class="menu">
+          <li>
+          
+          
+          <div class="grid-container">
+  
+             <div class="grid-x grid-margin-x">
+                 <div class="cell small-4"><span>
+  <!-- left side of submenu -->
+                    <div class="cell small-4"><span><a href="#Item-4A">Link1</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-4A">Link2</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-4A">Link3</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-4A">Link4</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link5</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link6</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link7</a></span></div>
+                    <div class="cell small-4"><span><a href="#Item-1A">Link8</a></span></div>
+
+                  </span></div>
+
+<!-- right side of submenu -->
+  
+              <div class="cell small-8" style="border-left:1px solid #000000;"><a href="#Item4"></a><span>
+
+        <!-- Nested Grid -->
+                       <div class="grid-x grid-margin-x">
+                        <div class="cell small-12 large-offset-1">  
+                    <p class="text-left">Stock Features4</p></div>
+                          <div class="cell small-6">   <a href="#Item4_nav1"><img src="img/stock1.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item4_nav2"><img src="img/stock2.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item4_nav3"><img src="img/stock3.jpg" alt="image"></a></div>
+                          <div class="cell small-6">   <a href="#Item4_nav4"><img src="img/stock4.jpg" alt="image"></a></div>
+
+                        </div>
+                    </span></div>
+            
+             
+              </div>
+            </div>
+
+          </li>
+        </ul>
+      </li>
+     </ul>
+    </section>
   </div>
 </div>
-
+</nav>
 
     <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/foundation.js"></script>
