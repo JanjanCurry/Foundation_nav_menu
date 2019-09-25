@@ -1,0 +1,354 @@
+<!-- This demo uses float grid but you can use flex grid too -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Foundation Menu</title>
+  <link rel="stylesheet" href="foundation-6.4.2.css">
+  <style>
+  .tabs{
+    border: none;
+    background: transparent;
+  }
+  .tabs-content {
+      border: none;
+      background: transparent;
+      transition: all 0.5s ease;
+  }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x">
+      <ul class="dropdown menu" data-dropdown-menu>
+      <li>
+        <a href="#Item-1" data-id="1" class="parent-menu">Item 1</a>
+        <ul class="menu">
+          <li>
+            <div class="grid-container">
+              <h3>Title</h3>
+              <div class="grid-x grid-margin-x">
+                <div class="cell medium-4">
+                  <ul class="vertical tabs" data-tabs id="example-tabs">
+                    <li class="tabs-title"><a href="#panel1v">Tab 1</a></li>
+                    <li class="tabs-title"><a href="#panel2v">Tab 2</a></li>
+                    <li class="tabs-title"><a href="#panel3v">Tab 3</a></li>
+                    <li class="tabs-title"><a href="#panel4v">Tab 4</a></li>
+                    <li class="tabs-title"><a href="#panel5v">Tab 5</a></li>
+                    <li class="tabs-title"><a href="#panel6v">Tab 6</a></li>
+                  </ul>
+                </div>
+                <div class="cell medium-8">
+                  <h3>Title</h3>
+                  <div class="tabs-content" data-tabs-content="example-tabs">
+                    <div class="tabs-panel is-active parent-1">
+                      <div class="grid-container">
+                        <div class="grid-x grid-margin-x small-up-2 medium-up-2">
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>Parent</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs-panel" id="panel1v">
+                      <div class="grid-container">
+                        <div class="grid-x grid-margin-x small-up-2 medium-up-2">
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs-panel" id="panel2v">
+                      <div class="grid-container">
+                        <div class="grid-x grid-margin-x small-up-2 medium-up-2">
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs-panel" id="panel3v">
+                      <div class="grid-container">
+                        <div class="grid-x grid-margin-x small-up-2 medium-up-2">
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs-panel" id="panel4v">
+                      <div class="grid-container">
+                        <div class="grid-x grid-margin-x small-up-2 medium-up-2">
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs-panel" id="panel5v">
+                      <div class="grid-container">
+                        <div class="grid-x grid-margin-x small-up-2 medium-up-2">
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs-panel" id="panel6v">
+                      <div class="grid-container">
+                        <div class="grid-x grid-margin-x small-up-2 medium-up-2">
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>This row of cards is embedded in an X-Y Block Grid.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cell">
+                            <div class="card">
+                              <img src="https://picsum.photos/id/1010/5184/3456">
+                              <div class="card-section">
+                                <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#Item-2">Item 2</a>
+        <ul class="menu">
+          <li>
+            <div class="grid-container">
+              <div class="grid-x grid-margin-x">
+                <div class="cell medium-4">
+                  <ul class="vertical tabs" data-tabs id="example-tabs-2">
+                    <li class="tabs-title"><a href="#panel11v">Tab 1</a></li>
+                    <li class="tabs-title"><a href="#panel22v">Tab 2</a></li>
+                    <li class="tabs-title"><a href="#panel33v">Tab 3</a></li>
+                  </ul>
+                </div>
+                <div class="cell medium-8">
+                  <div class="tabs-content" data-tabs-content="example-tabs-2">
+                    <div class="tabs-panel is-active" id="panel11v">
+                      <p>One</p>
+                      <p>Check me out! I'm a super cool Tab panel with text content!</p>
+                    </div>
+                    <div class="tabs-panel" id="panel22v">
+                      <p>Two</p>
+                      <img class="thumbnail" src="assets/img/generic/rectangle-7.jpg">
+                    </div>
+                    <div class="tabs-panel" id="panel33v">
+                      <p>Three</p>
+                      <p>Check me out! I'm a super cool Tab panel with text content!</p>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#Item-3">Item 3</a></li>
+      <li><a href="#Item-4">Item 4</a></li>
+    </ul>
+    </div>
+  </div>
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
